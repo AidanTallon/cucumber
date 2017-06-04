@@ -665,6 +665,10 @@
     "when": [
       "* ",
       "When "
+    ],
+    "with": [
+      "* ",
+      "With "
     ]
   },
   "en-Scouse": {

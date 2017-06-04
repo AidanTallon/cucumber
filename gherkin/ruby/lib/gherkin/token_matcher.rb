@@ -121,7 +121,8 @@ module Gherkin
                  @dialect.when_keywords +
                  @dialect.then_keywords +
                  @dialect.and_keywords +
-                 @dialect.but_keywords
+                 @dialect.but_keywords +
+                 @dialect.with_keywords
 
       keyword = keywords.detect { |k| token.line.start_with?(k) }
 

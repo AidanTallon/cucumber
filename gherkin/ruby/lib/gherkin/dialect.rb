@@ -54,5 +54,9 @@ module Gherkin
     def but_keywords
       @spec.fetch('but')
     end
+
+    def with_keywords
+      @spec.fetch('with')
+    end
   end
 end
